@@ -9,23 +9,23 @@ package model;
  * @author Admin
  */
 public class Question {
-    private int qid;
+    private int id;
     private String content;
 
     public Question() {
     }
 
-    public Question(int qid, String content) {
-        this.qid = qid;
+    public Question(int id, String content) {
+        this.id = id;
         this.content = content;
     }
 
-    public int getQid() {
-        return qid;
+    public int getId() {
+        return id;
     }
 
-    public void setQid(int qid) {
-        this.qid = qid;
+    public void setId(int id) {
+        this.id = id;
     }
 
     public String getContent() {
@@ -35,5 +35,7 @@ public class Question {
     public void setContent(String content) {
         this.content = content;
     }
+
+   
     
 }

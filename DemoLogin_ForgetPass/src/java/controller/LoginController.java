@@ -51,10 +51,7 @@ public class LoginController extends HttpServlet {
         Account account = db.getAllAccount(username, password);
         if(account!=null)
         {
-            //option 1
-            //resp.getWriter().println("Hello "+account.getUsername());
-            request.setAttribute("acc", account);
-            request.getRequestDispatcher("cf_login.jsp").forward(request, response);
+            response.getWriter().println("Hello "+account.getUsername());
         }
         else
         {
