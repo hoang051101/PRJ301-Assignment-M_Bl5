@@ -35,9 +35,7 @@ public class AccountDBContext extends DBContext {
                 account.setUsername(username);
                 return account;
             }
-        } catch (SQLException ex) {
-            Logger.getLogger(AccountDBContext.class.getName()).log(Level.SEVERE, null, ex);
-
+        } catch (SQLException e) {
         }
         return null;
     }
@@ -57,9 +55,7 @@ public class AccountDBContext extends DBContext {
             if (rs.next()) {
                 return rs.getString("password");
             }
-        } catch (SQLException ex) {
-            Logger.getLogger(AccountDBContext.class.getName()).log(Level.SEVERE, null, ex);
-
+        } catch (SQLException e) {
         }
         return null;
     }
