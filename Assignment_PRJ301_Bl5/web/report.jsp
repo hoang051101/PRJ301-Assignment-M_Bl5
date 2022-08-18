@@ -12,59 +12,25 @@
     <head>
         <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
         <title>JSP Page</title>
+        <link href="view/style.css" rel="stylesheet" type="text/css" id="style"/>
+
     </head>
     <body>
-
-        <table border="1px">
+        <table border = "1px">
             <tr><center style="color:red;font-size:40px;">Bảng chấm công nhật tháng 8/22</center></tr>
             <tr>
-                <td>STT</td>
-                <td>Tên</td>
-                <td>Chức vụ</td>
-                <td>Sản phẩm</td>
-                <td>Thứ 2</td>
-                <td>Thứ 3</td>
-                <td>Thứ 4</td> 
-                <td>Thứ 5</td>
-                <td>Thứ 6</td>
-                <td>Thứ 7</td>
-                <td style="background-color: yellow">Chủ nhật</td> 
-                <td>Thứ 2</td>
-                <td>Thứ 3</td>
-                <td>Thứ 4</td> 
-                <td>Thứ 5</td>
-                <td>Thứ 6</td>
-                <td>Thứ 7</td>
-                <td style="background-color: yellow">Chủ nhật</td> 
-                <td>Thứ 2</td>
-                <td>Thứ 3</td>
-                <td>Thứ 4</td> 
-                <td>Thứ 5</td>
-                <td>Thứ 6</td>
-                <td>Thứ 7</td>
-                <td style="background-color: yellow">Chủ nhật</td> 
-                <td>Thứ 2</td>
-                <td>Thứ 3</td>
-                <td>Thứ 4</td> 
-                <td>Thứ 5</td>
-                <td>Thứ 6</td>
-                <td>Thứ 7</td>
-                <td style="background-color: yellow">Chủ nhật</td> 
-                <td>Thứ 2</td>
-                <td>Thứ 3</td>
-                <td>Thứ 4</td> 
-                <td>Tổng sản phẩm</td>
-                <td>Ngày đi làm</td>
-                <td>Nghỉ không phép</td>
-                <td>Nghỉ có phép</td>
-                <td>Tổng lương </td>
-
+                <td rowspan="2">STT</td>
+                <td rowspan="2">Tên</td>
+                <td rowspan="2">Chức vụ</td>
+                <td rowspan="2">Sản phẩm</td>
+                <td colspan="31"><center style="font-size:30px;">Các ngày trong tháng</center></td>
+                <td rowspan="2">Tổng sản phẩm</td>
+                <td rowspan="2">Ngày đi làm</td>
+                <td rowspan="2">Nghỉ không phép</td>
+                <td rowspan="2">Nghỉ có phép</td>
+                <td rowspan="2">Tổng lương </td>
             </tr>
             <tr>            
-                <td></td>
-                <td></td>
-                <td></td>
-                <td></td>                
                 <td>1</td>
                 <td>2</td>
                 <td>3</td> 
@@ -96,14 +62,10 @@
                 <td>29</td>
                 <td>30</td>
                 <td>31</td> 
-                <td></td>
-                <td></td>
-                <td></td>
-                <td></td>
             </tr>
             <tr>
                 <td>1</td>
-                <td>Thái An</td>
+                <td><a href = "#">Thái An</a></td>
                 <td>Nhân viên</td>
                 <td>Hàng nhôm</td>
                 <td>130</td>
@@ -145,7 +107,7 @@
             </tr>
             <tr>
                 <td>2</td>
-                <td>An Bình</td>
+                <td><a href = "#">An Bình</a></td>
                 <td>Tổ trưởng</td>
                 <td>Đánh bóng</td>
                 <td>123</td>
@@ -187,7 +149,7 @@
             </tr>
             <tr>
                 <td>3</td>
-                <td>Ngô Linh</td>
+                <td><a href = "#">Ngô Linh</a></td>
                 <td>Nhân viên</td>
                 <td>Hàng Sắt</td>
                 <td>130</td>
@@ -229,7 +191,7 @@
             </tr>
             <tr>
                 <td>4</td>
-                <td>Nguyễn Nam</td>
+                <td><a href = "#">Nguyễn Nam</a></td>
                 <td>Nhân viên</td>
                 <td>Mài dũa</td>
                 <td>123</td>
