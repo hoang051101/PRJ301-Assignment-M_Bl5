@@ -17,7 +17,8 @@
     </head>
     <body>
         <table border = "1px">
-            <tr><center style="color:red;font-size:40px;">Bảng chấm công nhật tháng 8/22</center></tr>
+            <tr>Công Ty TNHH MTV</tr>
+            <tr><center style="color:red;font-size:40px;">Bảng chấm công tháng 8/22</center></tr>
             <tr>
                 <td rowspan="2">STT</td>
                 <td rowspan="2">Tên</td>
@@ -65,177 +66,178 @@
             </tr>
             <tr>
                 <td>1</td>
-                <td><a href = "#">Thái An</a></td>
+                <td><a href = "#">Trần Hương</a></td>
                 <td>Nhân viên</td>
                 <td>Hàng nhôm</td>
-                <td>130</td>
-                <td>212</td>
-                <td>321</td> 
-                <td>412</td>
-                <td>521</td>
-                <td>126</td>
+                <td>OK</td>
+                <td>OK</td>
+                <td>OK</td> 
+                <td>OK</td>
+                <td>OK</td>
+                <td>OK</td>
                 <td style="background-color: yellow">CN</td> 
-                <td>238</td>
-                <td>129</td>
-                <td>110</td>
-                <td>141</td> 
-                <td>132</td>
-                <td>143</td>
+                <td>OK</td>
+                <td>OK</td>
+                <td>OK</td>
+                <td>OK</td> 
+                <td>OK</td>
+                <td>OK</td>
                 <td style="background-color: yellow">CN</td>
-                <td>155</td> 
-                <td>166</td>
-                <td>175</td>
-                <td>218</td>
-                <td>319</td> 
-                <td>230</td>
+                <td>OK</td> 
+                <td>OK</td>
+                <td>OK</td>
+                <td>OK</td>
+                <td>OK</td> 
+                <td>OK</td>
                 <td style="background-color: yellow">CN</td>
-                <td>252</td>
-                <td>243</td> 
-                <td>124</td>
-                <td>125</td>
-                <td>426</td>
-                <td>227</td> 
+                <td>OK</td>
+                <td>OK</td> 
+                <td>OK</td>
+                <td>OK</td>
+                <td>OK</td>
+                <td>OK</td> 
                 <td style="background-color: yellow">CN</td>
-                <td>219</td>
-                <td>310</td>
-                <td>131</td> 
+                <td>OK</td>
+                <td>OK</td>
+                <td>OK</td> 
                 <td>10xx</td>
                 <td>27</td>
                 <td>0</td>
                 <td>0</td>
-                <td>10xx*Giá 1 sp nhôm </td>
+                <td>10xx </td>
             </tr>
             <tr>
                 <td>2</td>
                 <td><a href = "#">An Bình</a></td>
                 <td>Tổ trưởng</td>
                 <td>Đánh bóng</td>
-                <td>123</td>
-                <td>232</td>
-                <td>331</td> 
-                <td>124</td>
-                <td>325</td>
-                <td>236</td>
+                <td>OK</td>
+                <td>OK</td>
+                <td>OK</td> 
+                <td>OK</td>
+                <td>OK</td>
+                <td>OK</td>
                 <td style="background-color: yellow">CN</td> 
-                <td>212</td>
-                <td>231</td>
-                <td>123</td>
+                <td>OK</td>
+                <td>OK</td>
+                <td>OK</td>
                 <td>NP</td> 
                 <td>NP</td>
                 <td>NP</td>
                 <td style="background-color: yellow">CN</td>
-                <td>123</td> 
-                <td>116</td>
-                <td>117</td>
+                <td>OK</td> 
+                <td>OK</td>
+                <td>OK</td>
                 <td>CP</td>
                 <td>CP</td> 
-                <td>210</td>
+                <td>OK</td>
                 <td style="background-color: yellow">CN</td>
-                <td>222</td>
-                <td>213</td> 
-                <td>214</td>
+                <td>OK</td>
+                <td>OK</td> 
+                <td>OK</td>
                 <td>CP</td>
                 <td>CP</td>
                 <td>CP</td> 
                 <td style="background-color: yellow">CN</td>
-                <td>129</td>
+                <td>OK</td>
                 <td>CP</td>
-                <td>231</td> 
+                <td>OK</td> 
                 <td>10xx</td>
                 <td>18</td>
                 <td>0</td>
                 <td>9</td>
-                <td>10xx*giá 1 sp nhôm + 1tr trách nhiệm/tháng </td>
+                <td>10xx+500k trách nhiệm/tháng </td>
             </tr>
             <tr>
                 <td>3</td>
                 <td><a href = "#">Ngô Linh</a></td>
                 <td>Nhân viên</td>
                 <td>Hàng Sắt</td>
-                <td>130</td>
-                <td>212</td>
-                <td>321</td> 
-                <td>412</td>
-                <td>521</td>
-                <td>126</td>
+                <td>OK</td>
+                <td>OK</td>
+                <td>OK</td> 
+                <td>OK</td>
+                <td>OK</td>
+                <td>OK</td>
                 <td style="background-color: yellow">CN</td> 
-                <td>238</td>
+                <td>OK</td>
                 <td>KP</td>
-                <td>110</td>
-                <td>141</td> 
-                <td>132</td>
-                <td>143</td>
+                <td>OK</td>
+                <td>OK</td> 
+                <td>OK</td>
+                <td>OK</td>
                 <td style="background-color: yellow">CN</td>
-                <td>155</td> 
-                <td>166</td>
-                <td>175</td>
+                <td>OK</td> 
+                <td>OK</td>
+                <td>OK</td>
                 <td>CP</td>
                 <td>CP</td> 
-                <td>230</td>
+                <td>OK</td>
                 <td style="background-color: yellow">CN</td>
-                <td>252</td>
-                <td>243</td> 
-                <td>124</td>
-                <td>125</td>
-                <td>426</td>
-                <td>227</td> 
+                <td>OK</td>
+                <td>OK</td> 
+                <td>OK</td>
+                <td>OK</td>
+                <td>OK</td>
+                <td>OK</td> 
                 <td style="background-color: yellow">CN</td>
-                <td>219</td>
+                <td>OK</td>
                 <td>CP</td>
-                <td>131</td> 
+                <td>OK</td> 
                 <td>10xx</td>
                 <td>23</td>
                 <td>1</td>
                 <td>3</td>
-                <td>10xx*Giá 1 sp sắt - KP </td>
+                <td>10xx- KP </td>
             </tr>
             <tr>
                 <td>4</td>
                 <td><a href = "#">Nguyễn Nam</a></td>
                 <td>Nhân viên</td>
                 <td>Mài dũa</td>
-                <td>123</td>
-                <td>232</td>
-                <td>331</td> 
-                <td>124</td>
-                <td>325</td>
-                <td>236</td>
+                <td>OK</td>
+                <td>OK</td>
+                <td>OK</td> 
+                <td>OK</td>
+                <td>OK</td>
+                <td>OK</td>
                 <td style="background-color: yellow">CN</td> 
-                <td>212</td>
-                <td>231</td>
-                <td>123</td>
+                <td>OK</td>
+                <td>OK</td>
+                <td>OK</td>
                 <td>NP</td> 
                 <td>NP</td>
                 <td>NP</td>
                 <td style="background-color: yellow">CN</td>
-                <td>123</td> 
-                <td>116</td>
-                <td>117</td>
+                <td>OK</td> 
+                <td>OK</td>
+                <td>OK</td>
                 <td>CP</td>
                 <td>CP</td> 
-                <td>210</td>
+                <td>OK</td>
                 <td style="background-color: yellow">CN</td>
-                <td>222</td>
-                <td>213</td> 
-                <td>214</td>
+                <td>OK</td>
+                <td>OK</td> 
+                <td>OK</td>
                 <td>CP</td>
                 <td>CP</td>
                 <td>CP</td> 
                 <td style="background-color: yellow">CN</td>
-                <td>129</td>
+                <td>OK</td>
                 <td>CP</td>
-                <td>231</td> 
+                <td>OK</td> 
                 <td>10xx</td>
                 <td>18</td>
                 <td>0</td>
                 <td>9</td>
-                <td>10xx*giá 1 sp mài dũa </td>
+                <td>10xx </td>
             </tr>
             <table border="1px">
                 <tr style="font-size:15px;"> 
                     <td >
                         Ghi chú: 
-                        - Ốm: Ô	
+                        -- Làm đủ ngày: OK
+                        -- Ốm: Ô	
                         -- Nghỉ không phép: KP
                         -- Thai sản:	TS	
                         -- Tai nạn:	TN	
