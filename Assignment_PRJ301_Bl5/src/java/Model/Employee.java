@@ -13,8 +13,19 @@ import java.util.ArrayList;
 public class Employee {
     private int eid;
     private String name;
+     private Office office;
     private Product product;
-    private Office office;
+   
+
+    public Employee(int eid, String name, Office office, Product product) {
+        this.eid = eid;
+        this.name = name;
+        this.office = office;
+        this.product = product;
+    }
+
+    public Employee() {
+    }
 
     public Office getOffice() {
         return office;

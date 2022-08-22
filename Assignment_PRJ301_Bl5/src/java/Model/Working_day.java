@@ -4,7 +4,8 @@
  */
 package Model;
 
-import java.sql.Date;
+import helper.DateTimeHelper;
+import java.util.Date;
 
 /**
  *
@@ -13,18 +14,22 @@ import java.sql.Date;
 public class Working_day {
     private int wid;
     private Employee em;
-    private Date from;
-    private Date to;
+    private Date beginW;
+    private Date endW;
     private Status status;
+    private Date bgdate;
 
-    public Status getStatus() {
-        return status;
+    public Date getBgdate() {
+        return DateTimeHelper.removeTime(bgdate);
+    }
+    public float getWorkingDay()
+    {
+        return DateTimeHelper.diffHours(beginW, endW);
     }
 
-    public void setStatus(Status status) {
-        this.status = status;
+    public void setBgdate(Date bgdate) {
+        this.bgdate = bgdate;
     }
-    
 
     public int getWid() {
         return wid;
@@ -42,20 +47,32 @@ public class Working_day {
         this.em = em;
     }
 
-    public Date getFrom() {
-        return from;
+    public Date getBeginW() {
+        return beginW;
     }
 
-    public void setFrom(Date from) {
-        this.from = from;
+    public void setBeginW(Date beginW) {
+        this.beginW = beginW;
     }
 
-    public Date getTo() {
-        return to;
+    public Date getEndW() {
+        return endW;
     }
 
-    public void setTo(Date to) {
-        this.to = to;
+    public void setEndW(Date endW) {
+        this.endW = endW;
     }
+
+    public Status getStatus() {
+        return status;
+    }
+
+    public void setStatus(Status status) {
+        this.status = status;
+    }
+
+    
+
+   
     
 }

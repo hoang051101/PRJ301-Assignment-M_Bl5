@@ -12,6 +12,14 @@ public class Office {
     private int oid;
     private String position;
 
+    public Office() {
+    }
+
+    public Office(int oid, String position) {
+        this.oid = oid;
+        this.position = position;
+    }
+
     public int getOid() {
         return oid;
     }

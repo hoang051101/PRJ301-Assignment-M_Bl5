@@ -10,7 +10,15 @@ package Model;
  */
 public class Product {
     private int pid;
-    private int pname;
+    private String pname;
+
+    public Product() {
+    }
+
+    public Product(int pid, String pname) {
+        this.pid = pid;
+        this.pname = pname;
+    }
 
     public int getPid() {
         return pid;
@@ -20,12 +28,14 @@ public class Product {
         this.pid = pid;
     }
 
-    public int getPname() {
+    public String getPname() {
         return pname;
     }
 
-    public void setPname(int pname) {
+    public void setPname(String pname) {
         this.pname = pname;
     }
+
+    
     
 }
