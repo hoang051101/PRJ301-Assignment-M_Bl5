@@ -13,36 +13,19 @@ import java.util.ArrayList;
 public class Employee {
     private int eid;
     private String name;
-     private Office office;
-    private Product product;
-   
-
-    public Employee(int eid, String name, Office office, Product product) {
-        this.eid = eid;
-        this.name = name;
-        this.office = office;
-        this.product = product;
-    }
+    private String position;
+    private String pname;
+    private ArrayList<Working_day> working = new ArrayList<>();
 
     public Employee() {
     }
 
-    public Office getOffice() {
-        return office;
+    public Employee(int eid, String name, String position, String pname) {
+        this.eid = eid;
+        this.name = name;
+        this.position = position;
+        this.pname = pname;
     }
-
-    public void setOffice(Office office) {
-        this.office = office;
-    }
-
-    public Product getProduct() {
-        return product;
-    }
-
-    public void setProduct(Product product) {
-        this.product = product;
-    }
-    private ArrayList<Working_day> working = new ArrayList<>();
 
     public int getEid() {
         return eid;
@@ -60,6 +43,22 @@ public class Employee {
         this.name = name;
     }
 
+    public String getPosition() {
+        return position;
+    }
+
+    public void setPosition(String position) {
+        this.position = position;
+    }
+
+    public String getPname() {
+        return pname;
+    }
+
+    public void setPname(String pname) {
+        this.pname = pname;
+    }
+
     public ArrayList<Working_day> getWorking() {
         return working;
     }
@@ -67,5 +66,9 @@ public class Employee {
     public void setWorking(ArrayList<Working_day> working) {
         this.working = working;
     }
+
+   
+
+    
     
 }

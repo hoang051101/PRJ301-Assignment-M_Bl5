@@ -16,7 +16,6 @@
     <body>
         <table border ="1px">
             <tr>
-                <td>ID</td>
                 <td>Tên</td>
                 <td>Chức vụ</td>
                 <td>Mặt hàng</td>
@@ -41,8 +40,9 @@
             </tr>
             <c:forEach items="${requestScope.emps}" var="e">
                 <tr>
-                    <td>${e.eid}</td>
-                    <td>${e.ename}</td>
+                    <td>${e.name}</td>
+                    <td>${e.position}</td>
+                    <td>${e.pname}</td>
 
                     <c:forEach items="${requestScope.dates}" var="d">
                         <td
@@ -50,7 +50,14 @@
                                 style ="background-color: yellow"
                             </c:if>
                             >
-                            
+                            <c:forEach items="${e.working}" var="t">
+                                <c:if test="${d.value eq t.cidate}">
+                                    x                               
+                                </c:if>
+                                <c:if test="${d.value != t.cidate}">
+                                    O                               
+                                </c:if>
+                            </c:forEach>
                         </td> 
                     </tr>
                 </c:forEach>

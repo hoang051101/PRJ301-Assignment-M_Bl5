@@ -17,18 +17,18 @@ public class Working_day {
     private Date beginW;
     private Date endW;
     private Status status;
-    private Date bgdate;
+    private Date cidate;
 
-    public Date getBgdate() {
-        return DateTimeHelper.removeTime(bgdate);
+    public Date getCidate() {
+        return DateTimeHelper.removeTime(cidate);
     }
-    public float getWorkingDay()
+    public float getWorkingHours()
     {
         return DateTimeHelper.diffHours(beginW, endW);
     }
 
-    public void setBgdate(Date bgdate) {
-        this.bgdate = bgdate;
+    public void setCidate(Date bgdate) {
+        this.cidate = cidate;
     }
 
     public int getWid() {

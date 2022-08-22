@@ -6,6 +6,7 @@ package Controller;
 
 import Model.Employee;
 import Model.ViewDate;
+import dal.EmployeeDBContext;
 import helper.DateTimeHelper;
 import java.io.IOException;
 import java.io.PrintWriter;
@@ -14,7 +15,6 @@ import jakarta.servlet.http.HttpServlet;
 import jakarta.servlet.http.HttpServletRequest;
 import jakarta.servlet.http.HttpServletResponse;
 import java.util.Date;
-import dal.EmployeesDBContext;
 import java.util.ArrayList;
 
 /**
@@ -66,8 +66,8 @@ public class Working_dayReportController extends HttpServlet {
         int dayOfMonth = DateTimeHelper.getDayOfMonth(today);
         Date begin = DateTimeHelper.addDays(today, (dayOfMonth - 1) * -1);
         Date end = DateTimeHelper.addDays(DateTimeHelper.addMonths(begin, 1), -1);
-        EmployeesDBContext db = new EmployeesDBContext();
-        ArrayList<Employee> emps = db.getEmployee();
+        EmployeeDBContext db = new EmployeeDBContext();
+        ArrayList<Employee> emps = db.getEmps(begin, end);
         ArrayList<ViewDate> dates = DateTimeHelper.getDates(begin, end);
         request.setAttribute("emps", emps);
         request.setAttribute("dates", dates);
